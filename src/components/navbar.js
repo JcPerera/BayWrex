@@ -58,23 +58,23 @@ export default function NavBar() {
             <List>
                 <ListItem button>
                     <ListItemIcon><BusinessIcon /></ListItemIcon>
-                    <ListItemText primary={'About Us'} />
+                    <ListItemText primary={'ABOUT US'} />
                 </ListItem>
                 <ListItem button>
                     <ListItemIcon><StoreRoundedIcon /></ListItemIcon>
-                    <ListItemText primary={'Products'} />
+                    <ListItemText primary={'PRODUCTS'} />
                 </ListItem>
                 <ListItem button>
                     <ListItemIcon><BuildIcon /></ListItemIcon>
-                    <ListItemText primary={'Services'} />
+                    <ListItemText primary={'SERVICES'} />
                 </ListItem>
                 <ListItem button>
                     <ListItemIcon><PermContactCalendarIcon /></ListItemIcon>
-                    <ListItemText primary={'Contact Us'} />
+                    <ListItemText primary={'CONTACT US'} />
                 </ListItem>
                 <ListItem button>
                     <ListItemIcon><AccountCircleRoundedIcon /></ListItemIcon>
-                    <ListItemText primary={'Profile'} />
+                    <ListItemText primary={'LOG IN'} />
                 </ListItem>
             </List>
         </div>
@@ -82,7 +82,7 @@ export default function NavBar() {
 
     return (
         <div className={classes.grow}>
-            <AppBar position="static">
+            <AppBar position="fixed">
                 <Toolbar>
                     <Typography className={classes.title} variant="h6" noWrap>
                         BayWrex
