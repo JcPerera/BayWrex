@@ -1,9 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Container, Typography } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import image1 from "../assets/img/covers/cover4.jpg";
 // import Carousel from "react-multi-carousel";
-import Typed from 'react-typed';
 
 const useStyles = makeStyles((theme) => ({
     cover: {
