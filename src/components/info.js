@@ -31,7 +31,6 @@ const useStyles = makeStyles((theme) => ({
 function Info() {
     const classes = useStyles();
     return (
-        <section style={{ height: "100vh" }}>
             <Container>
                 <div className={classes.root}>
                     <Grid container spacing={3}>
@@ -95,7 +94,6 @@ function Info() {
                     </Grid>
                 </div>
             </Container>
-        </section>
     );
 }
 

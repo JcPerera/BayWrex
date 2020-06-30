@@ -89,10 +89,10 @@ export default function NavBar() {
           </Typography>
                     <div className={classes.grow} />
                     <div className={classes.sectionDesktop}>
-                        <Button color="inherit">About</Button>
+                        <Button color="inherit">About Us</Button>
                         <Button color="inherit">Services</Button>
                         <Button color="inherit">Products</Button>
-                        <Button color="inherit">Contact</Button>
+                        <Button color="inherit">Contact Us</Button>
                         <Button color="inherit">Login</Button>
                     </div>
                     <div className={classes.sectionMobile}>
