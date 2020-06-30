@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     title: {
+        fontFamily: 'Righteous, cursive',
         fontSize: "1.2rem",
         [theme.breakpoints.up('sm')]: {
             fontSize: "2rem",
@@ -12,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     }, 
     container: {
         textAlign: "center",
-        fontFamily: 'Righteous, cursive',
+        
         marginBottom: "20px"
     }
 }));
