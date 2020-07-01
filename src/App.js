@@ -7,6 +7,7 @@ import Info from './components/info';
 import { CssBaseline } from '@material-ui/core';
 import Statement from './components/statement';
 import Testimonials from './components/testimonials';
+import Gallery from './components/gallery';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Cover />
       <Statement/>
       <Info />
+      <Gallery/>
       <Testimonials />
     </div>
   );

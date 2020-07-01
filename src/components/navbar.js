@@ -72,10 +72,6 @@ export default function NavBar() {
                     <ListItemIcon><PermContactCalendarIcon /></ListItemIcon>
                     <ListItemText primary={'CONTACT US'} />
                 </ListItem>
-                <ListItem button>
-                    <ListItemIcon><AccountCircleRoundedIcon /></ListItemIcon>
-                    <ListItemText primary={'LOG IN'} />
-                </ListItem>
             </List>
         </div>
     );
@@ -93,7 +89,6 @@ export default function NavBar() {
                         <Button color="inherit">Services</Button>
                         <Button color="inherit">Products</Button>
                         <Button color="inherit">Contact Us</Button>
-                        <Button color="inherit">Login</Button>
                     </div>
                     <div className={classes.sectionMobile}>
                         <IconButton
