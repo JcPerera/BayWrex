@@ -1,7 +1,7 @@
 import React from 'react';
 import { CssBaseline } from '@material-ui/core';
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles"
-import { amber, yellow } from "@material-ui/core/colors"
+import { amber } from "@material-ui/core/colors"
 import './App.css';
 
 import Navbar from './components/navbar';

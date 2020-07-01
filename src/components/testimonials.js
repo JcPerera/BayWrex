@@ -63,13 +63,13 @@ function Testimonials() {
 
                                 />
                                 <div className={classes.topQuoteMark}>
-                                    <img src={quote} width="30" />
+                                    <img alt="quote icon" src={quote} width="30" />
                                 </div>
                                 <Typography variant="body2" color="textSecondary" component="p" className="review-text">
                                     10/10 service. Always reliable and responsive. Always helped me and my mates out with their cars. Highly recommended
           </Typography>
                                 <div className={classes.botQuoteMark}>
-                                    <img src={quote} width="30" />
+                                    <img alt="quote icon" src={quote} width="30" />
                                 </div>
                                 <Rating name="read-only" value={5} readOnly />
                             </CardContent>
@@ -90,14 +90,14 @@ function Testimonials() {
 
                                 />
                                 <div className={classes.topQuoteMark}>
-                                    <img src={quote} width="30" />
+                                    <img alt="quote icon" src={quote} width="30" />
                                 </div>
                                 <Typography variant="body2" color="textSecondary" component="p" className="review-text">
                                     Bought some engine parts for my WRX from this place and its absolutely fair pricing also Super customer service.
                                     Plus the owner helped me to fixed a leak which was from turbo boost lines. Highly recommended  place for Subie parts.
           </Typography>
                                 <div className={classes.botQuoteMark}>
-                                    <img src={quote} width="30" />
+                                    <img alt="quote icon" src={quote} width="30" />
                                 </div>
                                 <CardActions>
                                     <Rating name="read-only" value={5} readOnly />

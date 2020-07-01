@@ -7,7 +7,6 @@ import BusinessIcon from '@material-ui/icons/Business';
 import BuildIcon from '@material-ui/icons/Build';
 import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
 import StoreRoundedIcon from '@material-ui/icons/StoreRounded';
-import { orange } from '@material-ui/core/colors';
 
 const useStyles = makeStyles((theme) => ({
     grow: {
