@@ -13,7 +13,9 @@ import Gallery from './components/gallery';
 
 const theme = createMuiTheme({
   palette: {
-    primary: amber,
+    primary: {
+      main: "#000080"
+    },
   }
 });
 
