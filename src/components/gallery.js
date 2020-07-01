@@ -50,13 +50,13 @@ function Gallery() {
         <div className="swiper-body">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                <div class="swiper-slide" ><img src={image} height="300px" width="300px"></img></div>
-                    <div class="swiper-slide" ><img src={image1} height="300px" width="300px"></img></div>
-                    <div class="swiper-slide" ><img src={image2} height="300px" width="300px"></img></div>
-                    <div class="swiper-slide" ><img src={image3} height="300px" width="300px"></img></div>
-                    <div class="swiper-slide" ><img src={image4} height="300px" width="300px"></img></div>
-                    <div class="swiper-slide" ><img src={image5} height="300px" width="300px"></img></div>
-                    <div class="swiper-slide" ><img src={image6} height="300px" width="300px"></img></div>
+                <div class="swiper-slide" ><img src={image} height="350px" width="350px"></img></div>
+                    <div class="swiper-slide" ><img src={image1} height="350px" width="350px"></img></div>
+                    <div class="swiper-slide" ><img src={image2} height="350px" width="350px"></img></div>
+                    <div class="swiper-slide" ><img src={image3} height="350px" width="350px"></img></div>
+                    <div class="swiper-slide" ><img src={image4} height="350px" width="350px"></img></div>
+                    <div class="swiper-slide" ><img src={image5} height="350px" width="350px"></img></div>
+                    <div class="swiper-slide" ><img src={image6} height="350px" width="350px"></img></div>
                     
                 </div>
                 <div class="swiper-pagination"></div>

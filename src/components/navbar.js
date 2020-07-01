@@ -6,8 +6,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 import BusinessIcon from '@material-ui/icons/Business';
 import BuildIcon from '@material-ui/icons/Build';
 import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
-import AccountCircleRoundedIcon from '@material-ui/icons/AccountCircleRounded';
 import StoreRoundedIcon from '@material-ui/icons/StoreRounded';
+import { orange } from '@material-ui/core/colors';
 
 const useStyles = makeStyles((theme) => ({
     grow: {
@@ -31,6 +31,10 @@ const useStyles = makeStyles((theme) => ({
             display: 'none',
         },
     },
+    sideBar: {
+        backgroundColor: "#000",
+        color: "#fff"
+    }
 }));
 
 export default function NavBar() {
@@ -57,19 +61,19 @@ export default function NavBar() {
         >
             <List>
                 <ListItem button>
-                    <ListItemIcon><BusinessIcon /></ListItemIcon>
+                    <ListItemIcon><BusinessIcon color="primary"/></ListItemIcon>
                     <ListItemText primary={'ABOUT US'} />
                 </ListItem>
                 <ListItem button>
-                    <ListItemIcon><StoreRoundedIcon /></ListItemIcon>
+                    <ListItemIcon><StoreRoundedIcon color="primary"/></ListItemIcon>
                     <ListItemText primary={'PRODUCTS'} />
                 </ListItem>
                 <ListItem button>
-                    <ListItemIcon><BuildIcon /></ListItemIcon>
+                    <ListItemIcon><BuildIcon color="primary"/></ListItemIcon>
                     <ListItemText primary={'SERVICES'} />
                 </ListItem>
                 <ListItem button>
-                    <ListItemIcon><PermContactCalendarIcon /></ListItemIcon>
+                    <ListItemIcon><PermContactCalendarIcon color="primary"/></ListItemIcon>
                     <ListItemText primary={'CONTACT US'} />
                 </ListItem>
             </List>
@@ -100,7 +104,9 @@ export default function NavBar() {
                             <MenuIcon />
                         </IconButton>
                     </div>
-                    <Drawer anchor={'right'} open={state['right']} onClose={toggleDrawer('right', false)}>
+                    <Drawer anchor={'right'} open={state['right']} onClose={toggleDrawer('right', false)} classes={{
+                        paper: classes.sideBar
+                    }}>
                         {list('right')}
                     </Drawer>
                 </Toolbar>
