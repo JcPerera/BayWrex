@@ -31,8 +31,8 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     sideBar: {
-        backgroundColor: "#fff",
-        color: "#000"
+        backgroundColor: "#000",
+        color: "#fff"
     }
 }));
 

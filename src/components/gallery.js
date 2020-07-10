@@ -48,18 +48,18 @@ function Gallery() {
             Take a look for your self
           </Typography>
         <div className="swiper-body">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                <div class="swiper-slide" ><img src={image}  alt="subaru car" height="350px" width="350px"></img></div>
-                    <div class="swiper-slide" ><img src={image1} alt="subaru car" height="350px" width="350px"></img></div>
-                    <div class="swiper-slide" ><img src={image2} alt="subaru car" height="350px" width="350px"></img></div>
-                    <div class="swiper-slide" ><img src={image3} alt="subaru car" height="350px" width="350px"></img></div>
-                    <div class="swiper-slide" ><img src={image4} alt="subaru car" height="350px" width="350px"></img></div>
-                    <div class="swiper-slide" ><img src={image5} alt="subaru car" height="350px" width="350px"></img></div>
-                    <div class="swiper-slide" ><img src={image6} alt="subaru car" height="350px" width="350px"></img></div>
+            <div className="swiper-container">
+                <div className="swiper-wrapper">
+                <div className="swiper-slide" ><img src={image}  alt="subaru car" height="350px" width="350px"></img></div>
+                    <div className="swiper-slide" ><img src={image1} alt="subaru car" height="350px" width="350px"></img></div>
+                    <div className="swiper-slide" ><img src={image2} alt="subaru car" height="350px" width="350px"></img></div>
+                    <div className="swiper-slide" ><img src={image3} alt="subaru car" height="350px" width="350px"></img></div>
+                    <div className="swiper-slide" ><img src={image4} alt="subaru car" height="350px" width="350px"></img></div>
+                    <div className="swiper-slide" ><img src={image5} alt="subaru car" height="350px" width="350px"></img></div>
+                    <div className="swiper-slide" ><img src={image6} alt="subaru car" height="350px" width="350px"></img></div>
                     
                 </div>
-                <div class="swiper-pagination"></div>
+                <div className="swiper-pagination"></div>
             </div>
         </div>
         </>
