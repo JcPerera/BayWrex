@@ -1,12 +1,14 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import clsx from 'clsx';
-import { AppBar, Toolbar, IconButton, Drawer, Typography, Button, List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, Drawer, Button, List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import BusinessIcon from '@material-ui/icons/Business';
 import BuildIcon from '@material-ui/icons/Build';
 import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
 import StoreRoundedIcon from '@material-ui/icons/StoreRounded';
+import SettingsIcon from '@material-ui/icons/Settings';
+import logo from "../assets/img/logo.png";
 
 const useStyles = makeStyles((theme) => ({
     grow: {
@@ -20,13 +22,13 @@ const useStyles = makeStyles((theme) => ({
     },
     sectionDesktop: {
         display: 'none',
-        [theme.breakpoints.up('sm')]: {
+        [theme.breakpoints.up('md')]: {
             display: 'flex',
         },
     },
     sectionMobile: {
         display: 'flex',
-        [theme.breakpoints.up('sm')]: {
+        [theme.breakpoints.up('md')]: {
             display: 'none',
         },
     },
@@ -68,6 +70,10 @@ export default function NavBar() {
                     <ListItemText primary={'PRODUCTS'} />
                 </ListItem>
                 <ListItem button>
+                    <ListItemIcon><SettingsIcon color="primary"/></ListItemIcon>
+                    <ListItemText primary={'CONVERSIONS'} />
+                </ListItem>
+                <ListItem button>
                     <ListItemIcon><BuildIcon color="primary"/></ListItemIcon>
                     <ListItemText primary={'SERVICES'} />
                 </ListItem>
@@ -83,14 +89,14 @@ export default function NavBar() {
         <div className={classes.grow}>
             <AppBar position="fixed">
                 <Toolbar>
-                    <Typography className={classes.title} variant="h6" noWrap>
-                        BayWrex
-          </Typography>
+                    <img src={logo} height="30px"/>
+                    
                     <div className={classes.grow} />
                     <div className={classes.sectionDesktop}>
                         <Button color="inherit">About Us</Button>
-                        <Button color="inherit">Services</Button>
                         <Button color="inherit">Products</Button>
+                        <Button color="inherit">Conversions</Button>
+                        <Button color="inherit">Services</Button>
                         <Button color="inherit">Contact Us</Button>
                     </div>
                     <div className={classes.sectionMobile}>
